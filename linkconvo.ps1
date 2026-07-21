@@ -15,5 +15,5 @@ Write-Host "`n==================================================================
 
 $command = "powershell -ExecutionPolicy Bypass -Command `"Invoke-Expression (Invoke-RestMethod '$fullRawLink')`""
 
-Write-Host $command -ForegroundColor Green
+Write-Host $command -ForegroundColor Purple
 Write-Host "===============================================================================================" -ForegroundColor Purple
