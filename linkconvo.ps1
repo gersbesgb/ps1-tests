@@ -2,9 +2,10 @@
 
 Clear-Host
 
+Write-Host "=======================================================" -ForegroundColor Red
 Write-Host " [ GersBes ] " -ForegroundColor Red -NoNewline
-Write-Host "-> GitHub Link Converter v1.0.0" -ForegroundColor DarkMagenta
-Write-Host "=======================================================" -ForegroundColor DarkMagenta
+Write-Host "-> GitHub Link Converter v1.0.0" -ForegroundColor Red
+Write-Host "=======================================================" -ForegroundColor Red
 
 # User Input
 $userInput = Read-Host "Paste everything after github.com \nExample: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1 \n Path:" -ForegroundColor Yellow/
