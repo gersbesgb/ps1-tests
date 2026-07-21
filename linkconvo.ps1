@@ -7,8 +7,10 @@ Write-Host "[ GersBes ]" -ForegroundColor Red -NoNewline
 Write-Host "GitHub Link Converter v1.0.0" -ForegroundColor Red
 Write-Host "=======================================================" -ForegroundColor Red
 
+Write-Host ""
 Write-Host "Paste everything after github.com/" -ForegroundColor Yellow
 Write-Host "Example: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1 \n Path:" -ForegroundColor Yellow
+Write-Host ""
 $userInput = Read-Host "Path"
 
 $rawPath = $userInput -replace "/blob/", "/"
