@@ -7,8 +7,7 @@ Write-Host " [ GersBes ] \n" -ForegroundColor Red -NoNewline
 Write-Host "-> GitHub Link Converter v1.0.0" -ForegroundColor Red
 Write-Host "=======================================================" -ForegroundColor Red
 
-# User Input
-$userInput = Read-Host "Paste everything after github.com \nExample: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1 \n Path:" -ForegroundColor Yellow/
+$userInput = Read-Host "Paste everything after github.com \nExample: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1 \n Path:" -ForegroundColor Yellow
 
 $rawPath = $userInput -replace "/blob/", "/"
 $fullRawLink = "https://raw.githubusercontent.com/$rawPath"
