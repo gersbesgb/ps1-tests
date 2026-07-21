@@ -1,3 +1,5 @@
+# powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/gersbesgb/ps1-tests/main/linkconvo.ps1')"
+
 Clear-Host
 
 Write-Host " [ GersBes ] " -ForegroundColor Red -NoNewline
