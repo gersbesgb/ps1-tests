@@ -9,7 +9,7 @@ Write-Host "=======================================================" -Foreground
 
 Write-Host "Paste everything after github.com/" -ForegroundColor Yellow
 Write-Host "Example: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1 \n Path:" -ForegroundColor Yellow
-$userInput = Read-Host ""
+$userInput = Read-Host "Path:"
 
 $rawPath = $userInput -replace "/blob/", "/"
 $fullRawLink = "https://raw.githubusercontent.com/$rawPath"
