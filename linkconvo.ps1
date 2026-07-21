@@ -3,7 +3,7 @@
 Clear-Host
 
 Write-Host "=======================================================" -ForegroundColor Red
-Write-Host " [ GersBes ] " -ForegroundColor Red -NoNewline
+Write-Host " [ GersBes ] \n" -ForegroundColor Red -NoNewline
 Write-Host "-> GitHub Link Converter v1.0.0" -ForegroundColor Red
 Write-Host "=======================================================" -ForegroundColor Red
 
