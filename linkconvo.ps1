@@ -9,7 +9,7 @@ Write-Host "=======================================================" -Foreground
 
 Write-Host ""
 Write-Host "Paste everything after github.com/" -ForegroundColor Yellow
-Write-Host "Example: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1 \n Path:" -ForegroundColor Yellow
+Write-Host "Example: gersbesgb/GersBes-Download-Checker/blob/main/GersBes-Download-Checker.ps1" -ForegroundColor Yellow
 Write-Host ""
 $userInput = Read-Host "Path"
 
